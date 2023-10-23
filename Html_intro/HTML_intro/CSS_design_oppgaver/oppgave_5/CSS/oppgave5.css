@@ -1,0 +1,94 @@
+.Main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    border: solid black 1px;
+}   
+
+.Left {
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    border: solid black 1px;
+}
+.Middle {
+    display: flex;
+    height: 100%;
+    width: 70%;
+    flex-direction: column;
+    border: solid black 1px;
+}
+.Right {
+    display: flex;
+    height: 100%;
+    width: 15%; 
+    border: solid black 1px;
+}
+.MiddleTop {
+    display: flex;
+    height: 20%;
+    width: 100%;
+    border: solid black 1px;
+}
+.MiddleBottom {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    border: solid black 1px;
+} 
+p {
+    font-size: 1em;
+}
+.HeadBox1 {
+    display: flex;
+    height: 100%;
+    width: 28.5%;   
+}
+.HeadBox2 {
+    display: flex;
+    height: 100%;
+    width: 28.5%;
+}
+.HeadBox3 {
+    display: flex;
+    height: 100%;
+    width: 28.5%;
+}
+.MiniHeadBox1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 3em;
+    width: 70%;
+    border: solid black 1px;
+}
+.MiniHeadBox2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 70%;
+    font-size: 1em;
+    border: solid black 1px;
+}
+.MiniHeadBox3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 3em;
+    width: 70%;
+    border: solid black 1px;
+}
+.LastMiniHeadBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    height: 100%;
+    width: 23%;
+    border: solid black 1px;
+}

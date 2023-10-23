@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    height: 15%;
+    border: solid black 1px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main {
+    display: flex;
+    height: 1200px;
+    width: 100%;
+    flex-direction: column;
+    border: solid black 1px;
+}
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    height: 15%;
+    width: 100%;
+    border: solid black 1px;
+}
+.sub {
+    display: flex;
+    height: 85%;
+    align-items: flex-end;
+    width: 100%;
+    border: solid black 1px;
+}
