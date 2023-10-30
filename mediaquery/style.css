@@ -1,0 +1,20 @@
+.Main {
+    display: flex;
+    height: 125vh;
+    width: 100%;
+    background-color: burlywood;
+    flex-direction: column;
+    border: solid black 2px;
+}
+.header {
+    height: 20%;
+    width: 100%;
+    border: solid black 2px;
+}
+.middle {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    border: solid black 2px;
+    background-color: cadetblue;
+} 
