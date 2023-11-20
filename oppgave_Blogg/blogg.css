@@ -1,0 +1,156 @@
+
+/*"main" fungerer som boksen som alle boksene skal styles i*/
+.Main {
+    display: flex;
+    flex-direction: column;
+    height: 400vh;
+    width: 100%;
+    border: solid black 2px;
+
+}
+/*"header" er for overskriften til bloggen.*/
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+/*Stylling av overskrift h1*/
+h1 {
+    font-size: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+@media only screen and (max-width: 425px) {
+    h1 {
+        font-size: 2em;
+    }
+    .header {
+        height: 5%;
+    }
+    .Bloggcontent {
+        height: 95%;
+    }
+    .ImgBoxes {
+        height: 8%;
+        flex-direction: row;
+    }
+} 
+.ImgBoxes {
+    display: flex;
+    width: 100%;
+    height: 13%;
+    border: solid black 2px;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+} 
+.Bloggcontent {
+    display: flex;
+    height: 90%;
+    width: 100%;
+    border: solid black 2px;
+    flex-direction: column;
+}
+.ImgBox1 {
+    width: 20%;
+}
+.ImgBox2 {
+    width: 15%;
+}
+.ImgBox3 {
+    width: 20%;
+}
+.ImgTextBox {
+    display: flex;
+    width: 100%;
+    height: 5%;
+    
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.TextBox1 {
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    border: solid black 1px;
+}
+.TextBox2 {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: solid black 1px;
+}
+.TextBox3 {
+    width: 20%;
+    justify-content: center;
+    height: 100%;
+    border: solid black 1px;
+}
+h2, h3, h4 {
+    font-size: 1em;
+}
+.LeftFiller {    
+    width: 20%;
+    height: 100%;
+    border: solid black 1px
+}
+.BloggFinalContent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 78%;
+    border: solid black 1px;
+}
+.MiddleContent {
+    height: 100%;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    border: solid black 1px;
+}
+.RightFiller {
+    width: 20%;
+    height: 100%;
+    border: solid black 1px;
+}
+.MiddleFiller {
+    height: 10%;
+    width: 100%;
+    border: solid black 1px;
+}
+.TextHeader {
+    height: 100%;
+    width: 33%;
+    font-size: 1.7em;
+}
+.TextBoxHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8%;
+    width: 100%;
+}
+.RestContent {
+    height: 82%;
+    width: 100%;
+    display: flex;
+    border: solid black 1px;
+}
+.ThirdHeader {
+    height: 10%;
+    width: 100%;
+    border: solid black 1px;
+    font-size: 2.3em;
+}
+.SecondParagraph {
+    font-size: 1em;
+    border: solid black 1px;
+    height: 90%;
+    width: 100%;
+}
+
