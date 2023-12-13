@@ -1,0 +1,195 @@
+.main {
+    height: 400vh;
+    width: 100%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+
+.header {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    font-size: 3em;
+    color: #a1a9af;
+    font-weight: 300;
+    background-color: #202125;
+}
+.HeroImage {
+    height: 30%;
+    width: 100%;
+}
+.TextBox1 {
+    color: #a1a9af;
+}
+.maincontent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70%;
+
+}
+.Spacer1 {
+    height: 100%;
+    border: solid black 1px;
+    width: 20%;
+    background-color: #202125;
+}
+.Spacer2 {
+    height: 100%;
+    border: solid black 1px;
+    width: 20%;
+    background-color: #202125;
+}
+.Middle {
+    display: flex;
+    height: 100%;
+    border: solid black 1px;
+    flex-direction: column;
+    width: 60%;
+    background-color: #202125;
+}
+
+.miniheader1 {
+    height: 5%;
+    width: 100%;
+    font-size: 1.25em;
+    color:#f2c800;
+}
+.morecontent {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+
+}
+.miniheader2 {
+    display: flex;
+    color: #f2c800;
+    font-weight: 300;
+    height: 10%;
+    width: 100%;
+    font-size: 2em;
+}
+.TextBox2 {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.videoHeader {
+    width: 100%;
+    font-size: 2em;
+    color: #f2c800;
+}
+
+
+.videoTrailer {
+    width: 100%;
+    height: 50%;
+}
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1 {
+    margin-left: 15px; 
+    font-size: 1.5em; 
+}
+
+.BoxRow1 {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.BoxRow2 {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.feature1 {
+    height: 70%;
+    width: 32%;
+    border: solid black 1px;
+    justify-content: center;
+    display: flex;
+}
+.feature2 {
+    height: 70%;
+    width: 32%;
+    border: solid black 1px;
+    justify-content: center;
+    display: flex;
+}
+.feature3 {
+    height: 70%;
+    width: 32%;
+    border: solid black 1px;
+    justify-content: center;
+    display: flex;
+}
+.feature4 {
+    height: 70%;
+    width: 32%;
+    border: solid black 1px;
+    justify-content: center;
+    display: flex;
+}
+.feature5 {
+    height: 70%;
+    width: 32%;
+    border: solid black 1px;
+    justify-content: center;
+    display: flex;
+}
+.feature6 {
+    height: 70%;
+    justify-content: center;
+    width: 32%;
+    border: solid black 1px;
+    display: flex;
+}
+.morecontent .BoxRow1 h1 {
+    font-size: 1.6em;
+    color: #a1a9af;
+}
+.morecontent .BoxRow2 h2 {
+    color: #a1a9af;
+}
+.communityBox {
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+    width: 100%;
+    border: solid black 1px;
+}
+.communityBox .Communityheader h1 {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    color: #f2c800;
+    border: solid black 1px;
+}
+.CommunityVideo {
+    height: 90%;
+    width: 100%;
+    border: solid black 1px;
+}
