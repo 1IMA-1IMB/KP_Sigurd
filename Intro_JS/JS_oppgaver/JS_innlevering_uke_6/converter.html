@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--link til css fra html fil-->
+    <link rel="stylesheet" type="text/css" href="design.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--navn på netside-->
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div class="main">
+        
+        <div class="fillerLeft"></div>
+        
+        <div class="fillerMiddle">
+            
+            <div class="header">
+                <h1>Unit Converter to liters</h1>
+            </div>
+            <div class="InputBox">
+                <!--converter knapp aktiverer script "convertButton" scriot i javascipt-->
+                <button onclick="convertButton()" id="Converter">convert</button>
+
+<!--her så bruker jeg select funksjon til å lage en liste med verdier som kan velges. ved å bruke option value så kan jeg lage flere valg i menyen.-->
+                <select id="conversionUnits">
+
+                    <option value="Gallons">Gallons</option>
+
+                    <option value="Ounces">Ounces</option>
+                    
+                    <option value="Cups">Cups</option>
+                    
+                    <option value="Spiseskjeer">Spiseskjeer</option>
+                
+                </select>
+                
+                <label for="conversionUnits">Select any Unit</label>
+                
+                <input type="number" id="convert" placeholder="write here"><br>
+                
+                <label for="convert">convert units to liters</label><br>
+            
+                <div class="convertedValue" >
+                <p id="convertedvalue"></p>
+            
+            </div>
+            
+            <div class="checkerHeader">
+            
+                <h2>Palindrome Checker</h2>
+            
+            </div>
+            
+            <div class="PallindromeText">
+            
+                <p id="Palindrome"></p>
+            
+            </div>
+            
+        </div>
+        
+    </div>
+   
+        <div class="fillerRight"></div>
+   
+    </div>
+
+    
+    
+    
+    
+<!--linker javascript fil med html fil-->
+    <script src="script.js"></script>
+</body>
+</html>
