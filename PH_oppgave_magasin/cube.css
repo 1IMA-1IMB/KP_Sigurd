@@ -1,0 +1,240 @@
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    border: solid black 1px;
+
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    border: solid black 2px;
+}
+
+
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.NavLogo {
+    width: 20%;
+    height: 100%;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+.Hero-Image {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    border: solid black 2px;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    border: solid black 2px;
+}
+.MiddleContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    border: solid black 2px;
+}
+
+
+.MiddleBox1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30%;
+}
+.MiddleBox2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30%;
+}
+
+.minibox1 {
+    width: 33.33%;
+    height: 100%;
+    border-top: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.minibox2 {
+    width: 33.33%;
+    height: 100%;
+    border-top: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.minibox3 {
+    width: 33.33%;
+    height: 100%;
+    border-top: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}   
+.minibox4 {
+    width: 33.33%;
+    height: 100%;
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.minibox5 {
+    width: 33.33%;
+    height: 100%;
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.minibox6 {
+    width: 33.33%;
+    height: 100%;
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}   
+.introbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    border: solid black 1px;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.textbox {
+    width: 80%;
+    font-size: 2em;
+    height: 60%;
+    border: solid black 1px;
+}
+.minitextbox1 {
+    width: 90%;
+    height: 90%;
+    border: solid black 1px;
+    border-radius: 12px;
+} 
+
+.minitextbox2 {
+    width: 90%;
+    height: 90%;
+    border: solid black 1px;
+    border-radius: 12px;
+}   
+.minitextbox3 {
+    width: 90%;
+    height: 90%;
+    border: solid black 1px;
+    border-radius: 12px;
+}   
+.minitextbox4 {
+    width: 90%;
+    height: 90%;
+    border: solid black 1px;
+    border-radius: 12px;
+}   
+.minitextbox5 {
+    width: 90%;
+    height: 90%;
+    border: solid black 1px;
+    border-radius: 12px;
+}   
+.minitextbox6 {
+    width: 90%;
+    height: 90%;
+    border: solid black 1px;
+    border-radius: 12px;
+}  
+.tutorialbox {
+    width: 20%;
+    height: 100%;
+    border-top: solid black 1px;
+    border-left: solid black 1px;
+    display: flex;
+    text-align: center;
+}
+.NavBox {
+    width: 20%;
+    height: 100%;
+    border-top: solid black 1px;
+    border-left: solid black 1px;
+    display: flex;
+    text-align: center;
+}
+.MenuBox {
+    width: 20%;
+    height: 100%;
+    border-top: solid black 1px;
+    border-left: solid black 1px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
